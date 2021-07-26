@@ -39,6 +39,10 @@
           <li class="nav-item">
             <a class="nav-link" href="#share-head-section">Share</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#share-head-section" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -133,10 +137,10 @@
   <section id="explore-section" class="bg-light text-muted py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 pe-5">
+        <div class="col-lg-6 pe-5">
           <img src="/img/explore-section1.jpg" alt="" class="img-fluid rounded-circle mb-3">
         </div>
-        <div class="col-md-6 pt-5">
+        <div class="col-lg-6 pt-5">
           <h3>Explore & Connect</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas inventore, nam dolor
             praesentium modi aperiam sunt. Optio quae architecto mollitia autem officia? Unde, itaque.</p>
@@ -186,7 +190,7 @@
   <section id="create-section" class="py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 pt-5">
+        <div class="col-lg-6 pt-5">
           <h3>Create Your Passion</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas inventore, nam dolor
             praesentium modi aperiam sunt. Optio quae architecto mollitia autem officia? Unde, itaque.</p>
@@ -209,7 +213,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 ps-5">
+        <div class="col-lg-6 pt-4 ps-5">
           <img src="/img/create-section1.jpg" alt="" class="img-fluid rounded-circle mb-3">
         </div>
       </div>
@@ -239,10 +243,10 @@
   <section id="share-section" class="bg-light text-muted py-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 pe-5">
+        <div class="col-lg-6 pe-5">
           <img src="/img/share-section1.jpg" alt="" class="img-fluid rounded-circle mb-3">
         </div>
-        <div class="col-md-6 pt-5">
+        <div class="col-lg-6 pt-5">
           <h3 class="text-capitalize">Share what you Create</h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos voluptas inventore, nam dolor
             praesentium modi aperiam sunt. Optio quae architecto mollitia autem officia? Unde, itaque.</p>
@@ -268,6 +272,57 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer Section -->
+
+  <footer id="main-footer" class="bg-dark text-primary">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <div class="py-4">
+            <h1 class="h4 text-white">LoopLAB</h1>
+            <p class="text-white">Copyright &copy; 2021</p>
+            <button type="button" class="btn btn-primary px-5" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              data-bs-whatever="@mdo">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Footer Contact Modal -->
+
+  <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-2">
+              <label for="recipient-name" class="col-form-label">Enter Your Name</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="mb-2">
+              <label for="recipient-email" class="col-form-label">Enter Your Email</label>
+              <input type="email" class="form-control" id="recipient-email">
+            </div>
+            <div class="mb-2">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
