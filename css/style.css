@@ -1,9 +1,9 @@
 :root {
   --bg-color: #333;
-  --font-color: #ffffff;
+  --font-color: #fff;
   --primary-color:#0083d6;
   --dark-overlay: rgba(0,0,0, 0.7);
-  --font-size:30px;
+  --icon-size:30px;
 }
 
 body{
@@ -41,5 +41,17 @@ min-height: 700px;
   background-color: white;
   padding: 4px;
   border-radius: 5px;
-  font-size: var(--font-size);
+  font-size: var(--icon-size);
+}
+
+#explore-head-section{
+  color:#e2e4e4 ;
+}
+
+#explore-section .fa{
+  color: #fff;
+  background-color: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: var(--icon-size);
 }
